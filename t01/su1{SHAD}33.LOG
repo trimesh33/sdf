@@ -1,0 +1,83 @@
+sdf
+  FRAG: 0(38) : error C1058: too much data in initialization
+0(38) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(42) : error C1058: too much data in initialization
+0(42) : error C1058: t
+sdf
+  FRAG: 0(38) : error C1058: too much data in initialization
+0(38) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(42) : error C1058: too much data in initialization
+0(42) : error C1058: t
+sdf
+  FRAG: 0(38) : error C1058: too much data in initialization
+0(38) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(42) : error C1058: too much data in initialization
+0(42) : error C1058: t
+sdf
+  FRAG: 0(38) : error C1058: too much data in initialization
+0(38) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(39) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(40) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(41) : error C1058: too much data in initialization
+0(42) : error C1058: too much data in initialization
+0(42) : error C1058: t
+sdf
+  FRAG: 0(255) : error C7623: implicit narrowing of type from "vec3" to "float"
+
+sdf
+  FRAG: 0(255) : error C7623: implicit narrowing of type from "vec3" to "float"
+
+sdf
+  FRAG: 0(255) : error C7623: implicit narrowing of type from "vec3" to "float"
+
+sdf
+  FRAG: 0(258) : error C1503: undefined variable "trsph"
+0(260) : error C1503: undefined variable "trbox"
+0(260) : error C1503: undefined variable "trsph"
+0(261) : error C1503: undefined variable "trbox"
+0(261) : error C1503: undefined variable "trsph"
+
+sdf
+  FRAG: 0(258) : error C1503: undefined variable "trsph"
+0(260) : error C1503: undefined variable "trbox"
+0(260) : error C1503: undefined variable "trsph"
+0(261) : error C1503: undefined variable "trbox"
+0(261) : error C1503: undefined variable "trsph"
+
+sdf
+  FRAG: 0(256) : error C1503: undefined variable "ec3"
+
+sdf
+  FRAG: 0(23) : error C0000: syntax error, unexpected '}', expecting "::" at token "}"
+0(31) : error C0000: syntax error, unexpected '}', expecting "::" at token "}"
+0(326) : error C1503: undefined variable "L"
+0(327) : error C1503: undefined variable "L"
+0(348) : error C1503: undefined variable "L"
+0(349) : error C1503: undefined variable "L"
+0(359) : error C1503: undefined variable "M"
+0(384) : error C1503: undefined variable "M"
+
+sdf
+  FRAG: 0(258) : error C0000: syntax error, unexpected ')', expecting "::" at token ")"
+
