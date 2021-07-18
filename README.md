@@ -8,7 +8,7 @@
     Actived it by rebuilt project with prefix of shader 'rt' as directory in 'shaders/' )
     
 # Short guide
-![process](https://user-images.githubusercontent.com/39986899/126071557-e383c54c-8096-426a-b6ad-6938dec50161.jpg)
+<img src=https://user-images.githubusercontent.com/39986899/126071557-e383c54c-8096-426a-b6ad-6938dec50161.jpg width="80%">
 
   To build project u need to configure your platform to x86 in VS.
 
@@ -22,14 +22,16 @@
 
 Based on mathematical description of objects, we can determ the distance between object's surface and point in the space.
 
-<img src="https://user-images.githubusercontent.com/39986899/126071777-5bd5454d-f793-429a-994f-a0a9f8867c43.png" width="100" height="100">
-![sphere](https://user-images.githubusercontent.com/39986899/126071777-5bd5454d-f793-429a-994f-a0a9f8867c43.png)
-![tor](https://user-images.githubusercontent.com/39986899/126071779-04c4f986-df4b-4ad8-aec0-053022c94064.png)
-![tor88](https://user-images.githubusercontent.com/39986899/126071781-538140cb-1a09-405c-acbc-30255d74819b.png)
+\< 0 - in object;
 
-  \< 0 - in object;
-  \= 0 - on the object's surface;
-  \> 0 - out of object;
+\= 0 - on the object's surface;
+
+\> 0 - out of object;
+
+<img src=https://user-images.githubusercontent.com/39986899/126071777-5bd5454d-f793-429a-994f-a0a9f8867c43.png width="30%">
+<img src=https://user-images.githubusercontent.com/39986899/126071779-04c4f986-df4b-4ad8-aec0-053022c94064.png width="30%">
+<img src=https://user-images.githubusercontent.com/39986899/126071781-538140cb-1a09-405c-acbc-30255d74819b.png width="30%">
+
 
 **Operators:**
 1.  Union (opU) - add new object to the scene ( objs may have intersections )
@@ -49,7 +51,7 @@ Based on mathematical description of objects, we can determ the distance between
 
  
   **create the object:**
-   -  \#\<position>#\<matrix>#\<object_function>()#\<material>
+   -  \#\<position: vec3>#\<matrix>#\<object_function>()#\<material>
    
   **add to scene:**
   -   #\<function>\<obj>[\<obj>]
@@ -57,7 +59,19 @@ Based on mathematical description of objects, we can determ the distance between
   **create material:**
   - #material{\<ambient>, \<diffuse>, \<specular>, \<gloss>}
  
+# Examples
+
+**Reflection and soft shadow**
 ![sin_plane_sphere](https://user-images.githubusercontent.com/39986899/126071559-d9868d9a-461d-401c-bc3e-de5f5be37faa.jpg)
+
+**Plane with sinus modification and tor88 added with opUs**
 ![sin_plane_tor88_smooth](https://user-images.githubusercontent.com/39986899/126071560-7c2f047e-7c12-4ca9-9098-e95db5b3073d.jpg)
+
+**Plane generated from noise; tor88, sphere and cube added by opUs; spheres**
 ![noise_tor88_spheres_1](https://user-images.githubusercontent.com/39986899/126071556-2b2f8be8-8659-408b-aba9-de1da93da3ad.jpg)
+
+**Multiple reflection of spheres**
 ![repeat](https://user-images.githubusercontent.com/39986899/126071558-bea9865c-ddc9-4d85-a2c7-83a680c2c061.jpg)
+
+**Tor with spheres addes by opS**
+![tor_sphere_s](https://user-images.githubusercontent.com/39986899/126076900-4f866046-8f3b-432a-8e35-233aec201d0f.png)
