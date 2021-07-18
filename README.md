@@ -1,4 +1,5 @@
 
+
 # About
 
   This project (t01) was a part of education.
@@ -19,9 +20,10 @@
 # SDF description
 
 Based on mathematical description of objects, we can determ the distance between object's surface and point in the space.
-  \< 0 - in object
-  \= 0 - on the object's surface
-  \> 0 - out of object
+
+	  \< 0 - in object
+	  \= 0 - on the object's surface
+	  \> 0 - out of object
 
 **Operators:**
 1.  Union (opU) - add new object to the scene ( objs may have intersections )
