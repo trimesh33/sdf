@@ -3,20 +3,20 @@
 # About
 
   This project (t01) was a part of education.
-  It created to do render of complex objects faster and easier with GPU with Ray Marching and Signed Distance Functions (SDF).
+  It created to do rendering of complex objects faster and easier on GPU with Ray Marching and Signed Distance Functions (SDF).
   ( Also if u want, there is part of Ray Tracing in 'shaders/rt'.
-    Actived it by rebuilt project with prefix of shader 'rt' as directory in 'shaders/' )
+    Activate it by rebuilt project with prefix of shader 'rt' as directory in 'shaders/' )
     
 # Short guide
 <img src=https://user-images.githubusercontent.com/39986899/126071557-e383c54c-8096-426a-b6ad-6938dec50161.jpg width="80%">
 
   To build project u need to configure your platform to x86 in VS.
 
-  U can run project with 't01.exe' and folder 'shaders'.
-  In the 'shaders' u can find all shader, but u may be interested only in one file 'shaders/sdf/SDF.GLSL'
-  In this file u can find some sort of script, that allow u to create different virtual scenes.
-  File reloading in realtime, u dont need to rerun app.
-  If u feel confident, u can try configure scene right in 'FRAG.GLSL' in function 'sceneSDF' with varible 'mint' ( the closest object from Cam ).
+  Project can be rub with 't01.exe' and folder 'shaders'.
+  In the 'shaders' can be found all shader, but u may be interested only in one file 'shaders/sdf/SDF.GLSL'
+  In this file can be found some sort of script, that allows to create different virtual scenes.
+  Realtime shaders files reloading, no need to restart the application.
+  If u feel confident, can try configure scene right in 'FRAG.GLSL' in function 'sceneSDF' with varible 'mint' ( the closest object from Cam ).
 
 # SDF description
 
